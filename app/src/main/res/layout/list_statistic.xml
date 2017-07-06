@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:id="@+id/qIdLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Question ID："
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/qIdText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            tools:text="1"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/qIdText"
+            android:text="标题："
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/qTitleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/qIdText"
+            android:layout_alignParentRight="true"
+            android:textSize="16sp"
+            tools:text="test" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/qTitleText"
+            android:text="描述："
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/qInfoText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/qTitleText"
+            android:layout_alignParentRight="true"
+            tools:text="test"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/qInfoText"
+            android:text="类型："
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/qTypeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/qInfoText"
+            android:layout_alignParentRight="true"
+            tools:text="exam"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/qSectionText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/qTypeText"
+            android:text="分数区间："
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/qSectionText"
+            android:text="0-10："
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/Section0_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/qSectionText"
+            android:layout_alignParentRight="true"
+            tools:text="99"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Section0_10"
+            android:text="10-20："
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/Section10_20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Section0_10"
+            android:layout_alignParentRight="true"
+            tools:text="99"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Section10_20"
+            android:text="20-30："
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/Section20_30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Section10_20"
+            android:layout_alignParentRight="true"
+            tools:text="99"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Section20_30"
+            android:text="30-40："
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/Section30_40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Section20_30"
+            android:layout_alignParentRight="true"
+            tools:text="99"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Section30_40"
+            android:text="40-50："
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/Section40_50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Section30_40"
+            android:layout_alignParentRight="true"
+            tools:text="99"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Section40_50"
+            android:text="50-60："
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/Section50_60"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Section40_50"
+            android:layout_alignParentRight="true"
+            tools:text="99"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Section50_60"
+            android:text="60-70："
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/Section60_70"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Section50_60"
+            android:layout_alignParentRight="true"
+            tools:text="99"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Section60_70"
+            android:text="70-80："
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/Section70_80"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Section60_70"
+            android:layout_alignParentRight="true"
+            tools:text="99"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Section70_80"
+            android:text="80-90："
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/Section80_90"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Section70_80"
+            android:layout_alignParentRight="true"
+            tools:text="99"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Section80_90"
+            android:text="90-100："
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/Section90_100"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Section80_90"
+            android:layout_alignParentRight="true"
+            tools:text="99"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Section90_100"
+            android:text="满分人数："
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/Section100"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Section90_100"
+            android:layout_alignParentRight="true"
+            tools:text="99"
+            android:textSize="16sp" />
+    </RelativeLayout>
+</LinearLayout>

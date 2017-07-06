@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="Question ID："
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/qIdText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_alignParentRight="true"
+        tools:text="1"
+        android:textSize="18sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:layout_below="@id/qIdText"
+        android:text="title："
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/qTitleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_below="@id/qIdText"
+        android:layout_alignParentRight="true"
+        tools:text="Examination01"
+        android:textSize="16sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_below="@id/qTitleText"
+        android:text="用例编译："
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/tCompileText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_below="@id/qTitleText"
+        android:layout_alignParentRight="true"
+        tools:text="true"
+        android:textSize="16sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_below="@id/tCompileText"
+        android:text="用例运行："
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/tTestedText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_below="@id/tCompileText"
+        android:layout_alignParentRight="true"
+        tools:text="True"
+        android:textSize="16sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_below="@id/tTestedText"
+        android:text="分数："
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/qScoreText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_below="@id/tTestedText"
+        android:layout_alignParentRight="true"
+        tools:text="Examination01"
+        android:textSize="16sp" />
+
+</RelativeLayout>

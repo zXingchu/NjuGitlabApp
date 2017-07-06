@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.xingchuzhang.njugitlabapp.tearcharUI.StatisticsInfoActivity">
+    <TextView
+        android:id="@+id/assignIdLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="Assignment ID："
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/assignText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_alignParentRight="true"
+        tools:text="1"
+        android:textSize="20sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_below="@id/assignText"
+        android:text="参考人数："
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/assignNumberText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_below="@id/assignText"
+        android:layout_alignParentRight="true"
+        tools:text="239"
+        android:textSize="18sp" />
+    <ListView
+        android:id="@+id/statisticList"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/assignNumberText" />
+</RelativeLayout>

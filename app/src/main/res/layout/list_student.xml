@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:id="@+id/sIdLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID："
+            android:textSize="24sp" />
+        <TextView
+            android:id="@+id/sIdText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/sIdLabel"
+            tools:text="141650196"
+            android:textSize="24sp" />
+        <TextView
+            android:id="@+id/sNameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/sIdText"
+            android:layout_alignParentRight="true"
+            android:textSize="24sp"
+            tools:text="张兴楚" />
+        <TextView
+            android:id="@+id/sNameLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="姓名："
+            android:layout_toLeftOf="@id/sNameText"
+            android:textSize="24sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sNameText"
+            android:text="班级号："
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/groupIdText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sNameText"
+            android:layout_alignParentRight="true"
+            tools:text="2"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/groupIdText"
+            android:text="GitId："
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/gitIdText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/groupIdText"
+            android:layout_alignParentRight="true"
+            tools:text="0"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gitIdText"
+            android:text="Git用户名："
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/gitNameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gitIdText"
+            android:layout_alignParentRight="true"
+            tools:text="141250196"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gitNameText"
+            android:text="性别："
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/sexText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gitNameText"
+            android:layout_alignParentRight="true"
+            tools:text="male"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sexText"
+            android:text="邮箱："
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/emailText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sexText"
+            android:layout_alignParentRight="true"
+            tools:text="141250196@smail.nju.edu.cn"
+            android:textSize="16sp" />
+    </RelativeLayout>
+</LinearLayout>
